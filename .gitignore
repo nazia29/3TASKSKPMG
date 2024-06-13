@@ -1,1 +1,2 @@
-*.pem
+#Hiding pem file
+3-tierkey.pem
