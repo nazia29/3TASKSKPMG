@@ -1,3 +1,3 @@
-resource "aws_eip" "eip1" {
-  vpc   = true
+resource "aws_eip" "nat" {
+  instance = aws_instance.web[0].id
 }

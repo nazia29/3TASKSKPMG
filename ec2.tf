@@ -10,6 +10,7 @@ resource "aws_instance" "web" {
   tags = {
     Name = "Webserver"
   }
+  
 
   provisioner "file" {
     source      = "./3-tierkey.pem" 
